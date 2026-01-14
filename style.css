@@ -1,3 +1,25 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #0B1C51;
+  margin-bottom: 52px;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 52px;
+  font-size: 52;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
 header nav ul {
   display: flex;
   padding-left: 0;
@@ -35,3 +57,4 @@ header nav ul li:last-child a {
     color: #bdbdbd;
   }
 }
+
